@@ -310,3 +310,181 @@ footer {
     line-height: 29px;
     margin: 0;
 }
+
+
+/* RESPONSIVENESS FOR MOBILE AND TABLETS*/
+
+/* === Large Tablets (≤1200px) === */
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 120px;
+    }
+
+    header {
+        padding: 140px 200px 160px 150px;
+        height: 650px;
+    }
+
+    .hero__title {
+        font-size: 58px;
+    }
+
+    .map-block__visual {
+        height: 700px;
+        margin: 0 120px;
+    }
+}
+
+/* === Tablets (≤900px) === */
+@media (max-width: 900px) {
+    .container {
+        margin: 0 60px;
+    }
+
+    header {
+        padding: 120px 80px;
+        height: 500px;
+    }
+
+    .hero__content {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .hero__title {
+        font-size: 44px;
+        line-height: 1.15;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .map-block__visual {
+        margin: 0 40px;
+        height: 500px;
+    }
+
+    .factoid {
+        width: 300px;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .factoid__value {
+        font-size: 80px;
+    }
+
+    .factoid__text {
+        font-size: 20px;
+    }
+}
+
+/* === Phones (≤600px) === */
+@media (max-width: 600px) {
+
+    /* Layout */
+    .container {
+        margin: 0 20px;
+    }
+
+    article {
+        gap: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    /* Header */
+    header {
+        padding: 100px 30px 80px 30px;
+        height: auto;
+        min-height: 420px;
+        background-position: center center;
+    }
+
+    .hero__content {
+        gap: 30px;
+        width: 100%;
+    }
+
+    .brand h2 {
+        font-size: 26px;
+        padding-left: 15px;
+        border-left-width: 6px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    /* Text */
+    .text-block__title {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* Map blocks */
+    .map-block {
+        padding: 32px 0;
+    }
+
+    .map-block__visual {
+        margin: 0 10px;
+        height: auto;
+        max-height: 350px;
+    }
+
+    .map-block__visual img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* Factoids */
+    .factoid-block {
+        gap: 24px;
+    }
+
+    .factoid {
+        width: 80%;
+        height: auto;
+        padding: 24px 20px;
+    }
+
+    .factoid__value {
+        font-size: 54px;
+        padding-bottom: 10px;
+    }
+
+    .factoid__text {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .footer__content {
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .footer__brand-block {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer__partners {
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
